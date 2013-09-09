@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>ToDo List</title>
+		<link rel="stylesheet" href="http://cdn.webix.io/edge/webix.css" type="text/css" media="screen" charset="utf-8">
+		<script src="http://cdn.webix.io/edge/webix.js" type="text/javascript" charset="utf-8"></script>    
+
+		<link rel="stylesheet" href="./app.css" type="text/css" media="screen" charset="utf-8">
+		<script src="./app.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+
+	<h2>todos</h2>
+	<div id="app_area"></div>
+	<footer id="info">
+		<p>Click the "Add" button to add new task</p>
+		<p>Single-click to edit a todo, drag to reorder</p>
+	</footer>
+
+	<script type="text/javascript">	
+		webix.ready(function(){
+			webix.ui(app.ui);
+		});	
+	</script>
+	</body>
+</html>
