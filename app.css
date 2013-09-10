@@ -1,0 +1,58 @@
+/*global styles*/
+body{
+	background: #EAEAEA;
+	background-image: url('assets/bg.png');
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+}
+h2{
+	text-align:center;
+	font-size: 70px;
+	font-weight: bold;
+	margin: 20px;
+	
+	color: #b3b3b3;
+	color: rgba(255, 255, 255, 0.3);
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+	text-rendering: optimizeLegibility;
+}
+
+/* transparent UI*/
+.webix_view, .webix_layout_line{
+	background: transparent;
+}
+.webix_list{
+	border-radius: 5px;
+}
+.webix_list_item{
+	background:#fff;
+	line-height:48px;
+	font-size:20px;
+}
+.webix_dt_editor input{
+	font-size:20px;
+	border: 1px solid #cdd;
+	outline: 1px solid #cdd;
+}
+
+/* app specific styles*/
+#app_area{
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+}
+.todo_check, .todo_check_done{
+	float:left; margin-top:-2px;
+	width:120px; text-align:center;
+}
+.todo_check input{
+	width:80px;
+	padding:5px;
+}
+
+footer {
+	color: #777;
+	padding: 0 15px;
+	height: 20px;
+	text-align: center;
+}
